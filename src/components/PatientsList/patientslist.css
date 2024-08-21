@@ -1,0 +1,19 @@
+.patientsList {
+    padding: 20px;
+    flex: 5.5;
+  }
+  
+  .patientsList h2 {
+    margin-bottom: 20px;
+  }
+  
+  .patientsList ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .patientsList a {
+    text-decoration: none;
+    color: inherit;
+  }
+  

@@ -1,0 +1,60 @@
+.questionPost {
+  background-color: #fdfdfdcc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #c4f2f8cc;
+  border-radius: 4px;
+}
+
+.postHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profileImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.questionContent {
+  margin-bottom: 10px;
+}
+
+.questionPhoto {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.commentsList {
+  margin-top: 10px;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.commentHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.commentHeader .profileImg {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+
+.commentHeader .username {
+  font-weight: bold;
+}

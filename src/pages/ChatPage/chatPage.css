@@ -1,0 +1,5 @@
+.chatPageContainer {
+    display: flex;
+    height: calc(100vh - 50px); 
+  }
+  

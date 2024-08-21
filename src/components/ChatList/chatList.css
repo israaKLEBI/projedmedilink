@@ -1,0 +1,28 @@
+.chatList {
+    flex: 1;
+    overflow-y: auto;
+    border-right: 1px solid #ccc;
+  }
+  
+  .chatListItem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .chatListItem:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .chatListItemImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .chatListItemName {
+    font-weight: bold;
+  }
+  

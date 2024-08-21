@@ -1,0 +1,39 @@
+.questionPageContainer {
+    display: flex;
+  }
+  
+  .questionPage {
+    flex: 6;
+  }
+  
+  .questionsList {
+    margin-top: 20px;
+  }
+  .questionBar input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+  }
+  
+  .postButton {
+    padding: 10px 20px;
+    border: none;
+    background: linear-gradient(90deg, #6a11cb 0%, #6e96db 100%);
+    color: white;
+    border-radius: 0 8px 8px 0;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    outline: none;
+  }
+  
+  .postButton:hover {
+    background: linear-gradient(90deg, #acbfe7 0%, #6a11cb 100%);
+    transform: translateY(-2px);
+  }
+  
+  .postButton:active {
+    transform: translateY(0);
+  }

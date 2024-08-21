@@ -1,0 +1,93 @@
+.labList {
+    flex: 5.5;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .labListWrapper {
+    padding: 20px;
+  }
+  
+  .filterButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .filterButtons input {
+    padding: 9px;
+    width: 100%;
+    font-size: 11px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .filterButtons button {
+    padding: 12px 20px;
+    font-size: 10px;
+    cursor: pointer;
+    background-color: #d33636d5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .filterButtons button:hover {
+    background-color: #43c9d0d5;
+  }
+  
+  .labWrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .labCard {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .labHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .labCard h3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .labCard p {
+    color: #666;
+  }
+  
+  .labActions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .callButton,
+  .messageButton,
+  .medicalServicesIcon {
+    padding: 8px;
+    cursor: pointer;
+    font-size: 16px; /* Augmenté pour une meilleure lisibilité */
+    color: #26e1d8a6; /* Couleur par défaut pour les icônes */
+  }
+  
+  .callButton:hover,
+  .messageButton:hover,
+  .medicalServicesIcon:hover {
+    opacity: 0.9;
+  }

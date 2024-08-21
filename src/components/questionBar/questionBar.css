@@ -1,0 +1,15 @@
+.questionBar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.questionInput {
+  flex: 1;
+}
+
+.postButton {
+  margin-left: 10px;
+}

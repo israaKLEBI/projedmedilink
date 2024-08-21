@@ -1,0 +1,80 @@
+.profile {
+    display: flex;
+    background-color: rgb(245, 245, 245);
+}
+
+.profileRight {
+    display: flex;
+    flex-direction: column;
+    flex: 9;
+}
+
+.profilerightTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profileUserImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px; /* Espace en haut de l'image */
+    border: 3px solid rgba(216, 244, 248, 0.434);
+}
+
+.profileInfo {
+    margin-top: 20px; /* Espacement entre l'image et le nom */
+    text-align: center;
+}
+
+.profileInfoName {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profileButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.profileButton {
+    margin: 0 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgba(76, 198, 246, 0.813);
+    border: 3px solid rgba(102, 219, 234, 0.037);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.profileButton:hover {
+    background-color: lightblue;
+    color: rgb(195, 189, 189);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.profilerightBottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Feed {
+    flex: 7;
+    margin-right: 20px; /* Espace entre le feed et la rightbar */
+}
+
+.Rightbar {
+    flex: 3;
+    position: sticky;
+    top: 0;
+    height: calc(100vh - 50px); /* Prend toute la hauteur de la page moins la topbar */
+}

@@ -1,0 +1,13 @@
+.commentSection {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.commentInput {
+  flex: 1;
+}
+
+.commentButton {
+  margin-left: 10px;
+}
